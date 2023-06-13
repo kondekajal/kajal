@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>genral sibling selector</title>
+        <style>
+            body{
+                text-align: center;
+            }
+           h1~p{
+            color:blue;
+            font-size: 25px;
+            font-weight:bold;
+            text-align:center;
+           }
+           div{
+            font-size: 32px;;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>genral sibling selector(~)property</h1>
+        <p>is the first par elemnt will get effected</p>
+        <div> it is the div element
+            <p>it is pra under the div element</p>
+        </div>
+        <p>is the pra element after the div</p>
+        <p>is the pra element which will also get affected</p>
+    </body>
+</html>
