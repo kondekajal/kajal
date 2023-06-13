@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Adjacent sibling selector</title>
+        <style>
+            body{
+                text-align: center;
+            }
+            p+p{
+                color: blue;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                font-size: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Adjacent sibling selector(+)property</h1>
+        <p>it is the first pra</p>
+        <p>it is second pra which is immediately next
+             to first pra and get selected</p>
+        <div>this is the div element</div>    
+        <p> this is third pra which does not get affected</p>
+        <p>this pra also selected because it immediately
+            next to third pra
+        </p>
+    </body>
+</html>
